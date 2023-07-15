@@ -1,3 +1,8 @@
+/**
+  *工厂方法模式定义了一个创建对象的接口，但是由子类决定要实例化的类是哪一个。
+  *可以将对象的创建和使用分离，使得系统更加灵活
+ */
+
 class Animal {
   speak() {
     throw new Error("You have to implement the method speak!");
