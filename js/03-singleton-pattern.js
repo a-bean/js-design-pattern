@@ -1,3 +1,4 @@
+
 /**
  * 单例模式的目的是确保一个类只有一个实例，并为该实例提供全局访问点。
  * */
@@ -15,7 +16,8 @@ class Logger {
     this.logs.push(message);
     console.log("Logger:", message);
   }
-  printLogCount() {
+
+  printLogCount(){
     console.log(this.logs.length);
   }
 }
