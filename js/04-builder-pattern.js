@@ -51,7 +51,7 @@ class SandwichMaker {
     this.builder = new SandwichBuilder();
   }
 
-  creareCheeseSteakSandwich() {
+  createCheeseSteakSandwich() {
     this.builder.reset();
     this.builder.putMeat("ribeye steak");
     this.builder.putCheese("provolone");
@@ -61,5 +61,5 @@ class SandwichMaker {
 }
 
 const sandwichMaker = new SandwichMaker();
-const cheeseSteakSandwich = sandwichMaker.creareCheeseSteakSandwich();
+const cheeseSteakSandwich = sandwichMaker.createCheeseSteakSandwich();
 console.log(cheeseSteakSandwich.toString()); // ribeye steak, provolone, onion
